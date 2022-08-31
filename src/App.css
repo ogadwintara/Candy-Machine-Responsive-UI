@@ -4,7 +4,7 @@
   --card-background-color: rgba(0, 0, 0, 0.9);
   --countdown-background-color: #433765;
   --main-text-color: #fff;
-    --title-text-color: #FA26A0;
+    --title-text-color: #c6c939;
 }
 
 body{
@@ -21,7 +21,7 @@ body{
   color: #fff;
 }
 .wallet-adapter-button[disabled] {
-  background-color: #FA26A0 !important;
+  background-color: #f6fa26 !important;
 }
 h2, p{
   color: var(--main-text-color);
@@ -115,7 +115,7 @@ body {
   height: 21.5em !important;
   border-radius: 50px !important;
   border: 5px solid transparent;
-  border-color: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000) !important;
+  border-color: linear-gradient(45deg, #fbf700, #0000ff, #00ff00, #ffff00, #ff0000, #e2fb00, #0000ff, #00ff00, #ffff00, #ff0000) !important;
 
   ;
 }
@@ -141,7 +141,7 @@ body {
   position: relative;
   width: 100%;
   height: 2em;
-  background: #ce8dff;
+  background: #12140f;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -154,7 +154,7 @@ body {
   left: 0;
   top: 0px;
   height: 100%;
-  background-image: linear-gradient(to right, #fa26a0 10%, #0e93f1) !important;
+  background-image: linear-gradient(to right, #fada26 10%, #0e93f1) !important;
   border-radius: 10px;
   z-index: 2;
 }
